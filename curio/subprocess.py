@@ -4,7 +4,7 @@
 # David Beazley (Dabeaz LLC), http://www.dabeaz.com
 # All rights reserved.
 #
-# Curio clone of the subprocess module.  
+# Curio clone of the subprocess module.
 
 from .kernel import  new_task, sleep
 from .io import Stream
@@ -15,7 +15,7 @@ __all__ = [ 'run', 'Popen', 'CompletedProcess', 'CalledProcessError', 'TimeoutEx
 
 from subprocess import (
     CompletedProcess,
-    SubprocessError, 
+    SubprocessError,
     CalledProcessError,
     TimeoutExpired,
     PIPE,
