@@ -3,7 +3,7 @@ engines:
   fixme:
     enabled: false
   pep8:
-    enabled: true
+    enabled: false
   radon:
     enabled: true
   duplication:
